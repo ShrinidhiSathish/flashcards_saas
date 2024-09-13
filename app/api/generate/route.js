@@ -18,7 +18,7 @@ return in the following JSON format
 
 export async function POST(req) {
     
-    const openapi = new OpenAI({apiKey: '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'})
+    const openapi = new OpenAI()
     const data = await req.text()
 
 
